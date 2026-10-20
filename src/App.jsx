@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
-//import Footer from "./components/Footer"
-//import Home from "./pages/Home"
-//import Produtos from "./pages/Produtos"
+import Footer from "./components/Footer"
+import Home from "./pages/Home"
+import Produtos from "./pages/Produtos"
 
 const App = () => {
   return (
@@ -14,11 +14,11 @@ const App = () => {
         <Navbar />
 
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/produtos" element={<Produtos />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/produtos" element={<Produtos />} />
         </Routes>
 
-        {/* <Footer /> */}
+        <Footer />
 
       </div>
 
