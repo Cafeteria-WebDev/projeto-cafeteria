@@ -35,9 +35,9 @@ const Produtos = () => {
 
 
     return (
-        <main>
-            <h2 >Nossos Produtos</h2>
-            <section >
+        <main className="grow bg-background px-[5%] py-12">
+            <h2 className="font-title text-4xl text-text text-center mb-10">Nossos Produtos</h2>
+            <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
                 {produtos.map((produto) => (
                     <Card
                         key={produto.id}
