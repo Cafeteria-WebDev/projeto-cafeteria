@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <footer>
+      <p>&copy; - 2026 - Beatriz Salve, Estela Mariano e Gabriela Labrada</p>
+    </footer>
   )
 }
 
